@@ -1,0 +1,148 @@
+header {
+    padding: 1px;
+    background-color:whitesmoke
+    text-align: center;
+    border-radius: 0px;
+    text-decoration-color: rgb(23, 60, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+    background-color:lightgrey;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    height: 70px;
+    font-family: sans-serif;
+}
+nav {
+    float: left;
+    width: 30%;
+    height: 400px; 
+    background:0vw;
+    padding: 20px;
+    border-radius:1px;
+  }
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type:none
+    padding: 0;
+  }
+
+
+article {
+  float:none;
+  padding: 10px;
+  width: 98%;
+  height: 600px; 
+  border-radius:  5px;
+  border-color: ivory;
+  background-color:whitesmoke;
+  margin-top: 10px;
+
+}
+
+aside {
+    float: right;
+    width: 30%;
+    height: 400px; 
+    background:0vw;
+    padding: 20px;
+    color:unset;
+    border-radius: 1px;
+
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color:whitesmoke
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  /*positioning the manu*/
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(56, 56, 58);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(28, 95, 238);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+/* Fixed/sticky icon bar (horizontaly aligned 1% from the top of the screen) */
+.icon-bar {
+    position:fixed;
+    top: 1%;
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color:lightgray;
+  }
+  
+  .facebook {
+    background:lightgray;
+    color: white;
+  }
+  
+  .twitter {
+    background:lightgray
+    color: white;
+  }
+
+  /*style form input*/
+
+  input[type=text] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:30px;
+    font-size: 10px;
+  }
+  input[type=email] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:30px;
+    font-size: 10px;
+
+  }
+  input[type=submit] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:30px;
+    font-size: 10px;
+
+  }
