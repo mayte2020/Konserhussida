@@ -1,10 +1,16 @@
+p {
+    padding-right: 30px;
+    font-size: 15px;
+}
+
 header {
     padding: 1px;
-    background-color:whitesmoke
+    background-color:whitesmoke;
     text-align: center;
     border-radius: 0px;
-    text-decoration-color: rgb(23, 60, 226);
+    text-decoration-color:dimgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 footer {
     background-color:lightgrey;
@@ -61,7 +67,7 @@ ul {
     margin: 0;
     padding: 2px;
     overflow: hidden;
-    background-color:whitesmoke
+    background-color:whitesmoke;
     font-family: sans-serif;
     font-weight: bold;
   }
@@ -72,7 +78,7 @@ ul {
   
   li a {
     display: block;
-    color: rgb(56, 56, 58);
+    color: :black;
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
@@ -81,7 +87,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(28, 95, 238);
+    background-color:transparent;
   }
   
   .active {
@@ -101,27 +107,17 @@ ul {
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
+    color: black;
+    te
   }
   
-  /* Style the social media icons with color, if you want */
-  .icon-bar a:hover {
-    background-color:lightgray;
-  }
+
   
-  .facebook {
-    background:lightgray;
-    color: white;
-  }
-  
-  .twitter {
-    background:lightgray
-    color: white;
-  }
 
   /*style form input*/
 
   input[type=text] {
-    width: 10%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -129,7 +125,7 @@ ul {
     font-size: 10px;
   }
   input[type=email] {
-    width: 10%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -138,11 +134,62 @@ ul {
 
   }
   input[type=submit] {
-    width: 10%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border-radius:30px;
-    font-size: 10px;
+    font-size: 20px;
+    cursor: pointer;
 
   }
+  .btn {
+    background-color:lightgray;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color:whitesmoke
+  }
+  /*styles div galllery till sektion*/
+
+  div.gallery {
+    margin: 0px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
